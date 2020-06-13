@@ -21,19 +21,19 @@ export default function Home() {
             abusix
           </a>{" "}
           using a state of the art stack including{" "}
-          <span className="border bg-gray-200 rounded shadow-xs px-1">
+          <span className="font-semibold border bg-gray-200 rounded shadow-xs px-1">
             React.js
           </span>
           ,{" "}
-          <span className="border bg-gray-200 rounded shadow-xs px-1">
+          <span className="font-semibold border bg-gray-200 rounded shadow-xs px-1">
             Next.js
           </span>
           ,{" "}
-          <span className="border bg-gray-200 rounded shadow-xs px-1">
+          <span className="font-semibold border bg-gray-200 rounded shadow-xs px-1">
             Gatsby.js
-          </span>
-          ,{" "}
-          <span className="border bg-gray-200 rounded shadow-xs px-1">
+          </span>{" "}
+          and{" "}
+          <span className="font-semibold border bg-gray-200 rounded shadow-xs px-1">
             GraphQL
           </span>
         </p>
