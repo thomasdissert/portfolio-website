@@ -8,13 +8,15 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="width-900 text-right font-mono">
-        <div className="text-5xl font-extrabold">Thomas Dissert</div>
-        <div className="text-2xl text-purple-800 uppercase mb-6">
+      <main className="width-900 text-right font-mono mx-4">
+        <div className="text-3xl sm:text-5xl sm:text-3xl font-extrabold">
+          Thomas Dissert
+        </div>
+        <div className="text-xl sm:text-2xl text-purple-800 uppercase mb-6">
           Full Stack Developer
         </div>
 
-        <p className="text-2xl leading-normal mt-3 font-mono">
+        <p className="text-xl sm:text-2xl leading-normal mt-3 font-mono">
           Making the internet a safer place by creating a network security
           platform at{" "}
           <a className="text-purple-800" href="https://abusix.com">
@@ -37,36 +39,18 @@ export default function Home() {
             GraphQL
           </span>
         </p>
-
-        <div className="grid">
-          {/* <a href="https://nextjs.org/docs" className="card">
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
-
-          <a href="https://nextjs.org/learn" className="card">
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className="card"
+        {/* <div>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 1200 120"
+            preserveAspectRatio="none"
           >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className="card"
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a> */}
-        </div>
+            <path
+              d="M985.66 92.83C906.67 72 823.78 31 743.84 14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84 11.73-114 31.07-172 41.86A600.21 600.21 0 010 27.35V120h1200V95.8c-67.81 23.12-144.29 15.51-214.34-2.97z"
+              fill={"black"}
+            />
+          </svg>
+        </div> */}
       </main>
 
       <footer>© 2020 Thomas Dissert.</footer>
