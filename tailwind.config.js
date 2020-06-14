@@ -1,8 +1,15 @@
 module.exports = {
   purge: [],
   theme: {
-    extend: {},
+    fontFamily: {
+      body: "Open Sans",
+    },
+    extend: {
+      colors: {
+        background: "#f2f6f8",
+      },
+    },
   },
   variants: {},
   plugins: [],
-}
+};

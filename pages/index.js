@@ -2,44 +2,45 @@ import Head from "next/head";
 
 export default function Home() {
   return (
-    <div className="container">
-      <Head>
-        <title>Thomas Dissert</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+    <div className="bg-background">
+      <div className="container">
+        <Head>
+          <title>Thomas Dissert</title>
+          <link rel="icon" href="/favicon.ico" />
+        </Head>
 
-      <main className="width-900 text-right font-mono mx-4">
-        <div className="text-3xl sm:text-5xl sm:text-3xl font-extrabold">
-          Thomas Dissert
-        </div>
-        <div className="text-xl sm:text-2xl text-purple-800 uppercase mb-6">
-          Full Stack Developer
-        </div>
+        <main className="width-900 text-right font-body mx-4">
+          <div className="text-3xl sm:text-5xl sm:text-3xl font-light">
+            Thomas Dissert
+          </div>
+          <div className="text-xl sm:text-2xl text-purple-800 uppercase font-bold mb-6">
+            Full Stack Developer
+          </div>
 
-        <p className="text-xl sm:text-2xl leading-normal mt-3 font-mono">
-          Making the internet a safer place by creating a network security
-          platform at{" "}
-          <a className="text-purple-800" href="https://abusix.com">
-            abusix
-          </a>{" "}
-          using a state of the art stack including{" "}
-          <span className="font-semibold border bg-gray-200 rounded shadow-xs px-1">
-            React.js
-          </span>
-          ,{" "}
-          <span className="font-semibold border bg-gray-200 rounded shadow-xs px-1">
-            Next.js
-          </span>
-          ,{" "}
-          <span className="font-semibold border bg-gray-200 rounded shadow-xs px-1">
-            Gatsby.js
-          </span>{" "}
-          and{" "}
-          <span className="font-semibold border bg-gray-200 rounded shadow-xs px-1">
-            GraphQL
-          </span>
-        </p>
-        {/* <div>
+          <p className="text-xl sm:text-2xl leading-normal mt-5">
+            Making the internet a safer place by creating a network security
+            platform at{" "}
+            <a className="text-purple-800" href="https://abusix.com">
+              abusix
+            </a>{" "}
+            using a state of the art stack including{" "}
+            <span className="font-semibold border bg-gray-200 rounded shadow-xs px-1">
+              React.js
+            </span>
+            ,{" "}
+            <span className="font-semibold border bg-gray-200 rounded shadow-xs px-1">
+              Next.js
+            </span>
+            ,{" "}
+            <span className="font-semibold border bg-gray-200 rounded shadow-xs px-1">
+              Gatsby.js
+            </span>{" "}
+            and{" "}
+            <span className="font-semibold border bg-gray-200 rounded shadow-xs px-1">
+              GraphQL
+            </span>
+          </p>
+          {/* <div>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 1200 120"
@@ -51,9 +52,10 @@ export default function Home() {
             />
           </svg>
         </div> */}
-      </main>
+        </main>
 
-      <footer>© 2020 Thomas Dissert.</footer>
+        <footer>© 2020 Thomas Dissert.</footer>
+      </div>
     </div>
   );
 }
